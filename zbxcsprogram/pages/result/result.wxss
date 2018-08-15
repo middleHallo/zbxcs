@@ -1,0 +1,6 @@
+/* pages/result/result.wxss */
+
+
+.shareImage{
+  width: 750rpx;
+}

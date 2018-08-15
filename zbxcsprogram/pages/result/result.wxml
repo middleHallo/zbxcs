@@ -1,0 +1,6 @@
+<!--pages/result/result.wxml-->
+<view class='container'>
+  <image src='{{shareImage}}' class='shareImage' mode='widthFix'></image>
+</view>
+
+<canvas canvas-id='share' style='width:750px;height:1334px' hidden></canvas>

@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class='container'>
+    
+    <image src='/images/back.jpg' class='backgroundImage'></image>
+    
+    <view class='action'>
+      <image src='/images/input.png' style='width:616rpx;height:97px'></image>
+      <input type='text' placeholder='输入昵称' class='nickNameInput' placeholder-class='nickNameInputPlaceHolder' bindinput='nicknameInput'></input>
+      <image src='/images/button.png' style='width:228rpx;' mode='widthFix' bindtap='goTest'></image>
+    </view>
+</view>
